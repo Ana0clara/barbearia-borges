@@ -82,7 +82,9 @@ form label, form legend{
   border-radius: 8px;
   width: 40%;
   padding: 15px 0;
-  transition: 2s all 1s;
+  transition: 1s all 1s;
+  cursor: pointer;
+
 }
 
 .enviar:hover{
@@ -97,4 +99,11 @@ table{
 
 thead{
   background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
